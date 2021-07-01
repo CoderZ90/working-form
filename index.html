@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create a working contact form | Formspree</title>
+    <!-- All Image link will be in description -->
+</head>
+<body>
+
+    <!-- You need to sign up in order to continue ( Because the form will be sent to that email adress from which you will register ) -->
+
+    <!-- After singning in you will be redirected here -->
+<!-- Now lets check my email -->
+    <!-- Dont use this link plz you have to create your own :) -->
+    <form action="https://formspree.io/f/mdoydllj" method="POST" class="box">
+        <header>Contact Form</header>
+
+        <div class="inputBox">
+            <!-- NOTE! -> Name is required without it wont work -->
+            <input name="Name" type="text" id="nameBox" placeholder="Your Name..." autocomplete="off" required>
+        </div>
+        <div class="inputBox">
+            <input name="Email" type="email" id="mailbox" placeholder="Email..." autocomplete="off" required>
+        </div>
+
+        <textarea name="Message" class="msgBox" required></textarea>
+        <!-- Nice ??? comment below ur suggestions :) -->
+
+        <!-- wrap it in a div -->
+        <div class="button-container">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
